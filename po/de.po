@@ -1,15 +1,15 @@
 # German translation for neverbore
 # Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
 # This file is distributed under the same license as the neverbore package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# Jonatan Hatakeyama Zeidler <jonatan_zeidler@gmx.de>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: neverbore\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 17:24+0000\n"
-"PO-Revision-Date: 2018-03-03 18:38+0100\n"
-"Last-Translator: tobson <Unknown>\n"
+"PO-Revision-Date: 2018-03-07 16:00+0100\n"
+"Last-Translator: Jonatan Hatakeyama Zeidler <jonatan_zeidler@gmx.de>\n"
 "Language-Team: German <de@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../app/CreditsPage.qml:5 ../app/FrontPage.qml:64
 msgid "Credits"
-msgstr ""
+msgstr "Mitwirkende"
 
 #: ../app/CreditsPage.qml:21
 #, qt-format
@@ -40,7 +40,7 @@ msgstr "Gestaltung durch %1"
 #: ../app/CreditsPage.qml:24
 #, qt-format
 msgid "Testing by %1"
-msgstr "Geprüft durch %1"
+msgstr "Getestet durch %1"
 
 #: ../app/CreditsPage.qml:25
 #, qt-format
@@ -50,7 +50,7 @@ msgstr "Rätsel von %1"
 #: ../app/FrontPage.qml:37
 #, qt-format
 msgid "Continue <i>%1</i>"
-msgstr "Weiter <i>%1</i>"
+msgstr "<i>%1</i> fortsetzen"
 
 #: ../app/FrontPage.qml:37
 msgid "Continue current puzzle"
@@ -62,11 +62,11 @@ msgstr "Alle Rätsel"
 
 #: ../app/FrontPage.qml:58 ../app/HowToPage.qml:5
 msgid "How to Play"
-msgstr ""
+msgstr "Anleitung"
 
 #: ../app/GamePage.qml:30
 msgid "Check"
-msgstr ""
+msgstr "Prüfen"
 
 #: ../app/GamePage.qml:37
 msgid "Ghost Mode"
@@ -85,10 +85,12 @@ msgid ""
 "You are now making temporary guesses that you can choose to either keep or "
 "discard when you are done with ghost mode."
 msgstr ""
+"Nun lassen sich vorübergehende Änderungen machen, die man beim Beenden des "
+"Geistermodus entweder behalten oder verwerfen kann."
 
 #: ../app/GamePage.qml:122
 msgid "Got it"
-msgstr ""
+msgstr "Verstanden"
 
 #: ../app/GamePage.qml:132
 msgid "Leaving ghost mode"
@@ -96,15 +98,15 @@ msgstr "Verlasse Geistermodus"
 
 #: ../app/GamePage.qml:133
 msgid "Would you like to keep or discard your temporary guesses?"
-msgstr ""
+msgstr "Vorübergehende Änderungen behalten oder verwerfen?"
 
 #: ../app/GamePage.qml:135
 msgid "Keep guesses"
-msgstr ""
+msgstr "Behalten"
 
 #: ../app/GamePage.qml:143
 msgid "Discard guesses"
-msgstr ""
+msgstr "Verwerfen"
 
 #: ../app/GamePage.qml:151
 msgid "Stay in ghost mode"
@@ -115,6 +117,8 @@ msgid ""
 "Picross games are grid logic puzzles where you must determine which of the "
 "grid squares are filled in."
 msgstr ""
+"Picross-Spiele sind logische Gitter-Rätsel, wo es herauszufinden gilt, "
+"welche der Felder gefüllt sind."
 
 #: ../app/HowToPage.qml:46
 msgid ""
@@ -123,6 +127,11 @@ msgid ""
 "\"4 2\" means that row has a run of 4 filled squares and a run of 2 filled "
 "squares to its right, separated by one or more empty squares."
 msgstr ""
+"Jede Reihe und Spalte hat eine Menge von Hinweisnummern. Jede Nummer zeigt "
+"eine Folge von gefüllten Feldern in der Reihe oder Spalte an. Eine Reihe "
+"mit \"4 2\" bedeutet zum Beispiel, dass es in der Reihe eine Folge von 4 "
+"und rechts davon eine Reihe von 2 gefüllten Feldern gibt, mit einem Abstand "
+"von mindestens einem Feld."
 
 #: ../app/HowToPage.qml:53
 msgid ""
@@ -131,6 +140,9 @@ msgid ""
 "This enters ghost mode and all changes to the board can be either kept or "
 "discarded when you leave ghost mode."
 msgstr ""
+"Um zu schauen, wie das Gitter aussähe, <em>falls</em> ein bestimmtes Feld "
+"gefüllt wäre, verwendet man den Geistermodus über das Symbol oben. Beim "
+"Verlassen des Geistermodus können Änderungen behalten oder verworfen werden."
 
 #: ../app/PacksPage.qml:9
 msgid "Puzzles"
@@ -138,8 +150,8 @@ msgstr "Rätsel"
 
 #: ../app/neverbore.qml:29
 msgid "Unmute"
-msgstr ""
+msgstr "Laut"
 
 #: ../app/neverbore.qml:29
 msgid "Mute"
-msgstr ""
+msgstr "Stumm"
